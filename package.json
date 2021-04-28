@@ -1,0 +1,16 @@
+{
+  "name": "googleproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "cross-env PORT=3000 nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "encoding": "^0.1.13",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
